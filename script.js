@@ -27,7 +27,7 @@ function loader(success) {
                 clearInterval(t);
                 w = 0;  
             }
-        }, 10);
+        }, 100);
 }
 
 document.querySelector('.btn').addEventListener('mouseup', function() {
